@@ -46,6 +46,16 @@
   }
 }
 
+@mixin hdg-callout($set, $ht, $color: $white) {
+  @include responsive-font($set, $ht);
+
+  height: $ht;
+  font-weight: normal;
+  color: $color;
+  text-align: center;
+  background-color: $callout-heading-bg-color;
+}
+
 
 @mixin alt-copy($set: false) {
   @if $set {
