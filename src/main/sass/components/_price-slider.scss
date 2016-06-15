@@ -1,0 +1,15 @@
+.price-slider{
+  display: flex;
+}
+
+.price-slider_min-lable{
+  flex-grow: 1;
+}
+
+.price-slider_max-lable{
+  flex-grow: 1;
+}
+
+.price-slider__slider{
+  flex-grow: 2;
+}
